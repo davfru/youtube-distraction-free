@@ -1,0 +1,39 @@
+{
+  "name": "empty-youtube-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --progress --config webpack.dev.js",
+    "build": "webpack --watch --progress --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davfru/empty-youtube-dashboard.git"
+  },
+  "author": "Davide Fruci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davfru/empty-youtube-dashboard/issues"
+  },
+  "homepage": "https://github.com/davfru/empty-youtube-dashboard#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.237",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.4",
+    "html-webpack-plugin": "^5.5.1",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.0.4",
+    "webpack": "^5.84.0",
+    "webpack-cli": "^5.1.1",
+    "webpack-merge": "^5.9.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
