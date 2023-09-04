@@ -1,4 +1,9 @@
-# React Chrome Extension Boilerplate
+# Remove all the distractions when watching videos on YouTube
+
+Comments, shorts, suggestions.. who does really want them? I don't. I want to choose what watch on YouTube.
+That's why I created thi simple chrome extension that delete all the distractions.
+
+Follow the instructions below to install it on your browser.
 
 ## Getting Started
 
